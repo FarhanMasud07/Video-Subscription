@@ -31,17 +31,16 @@ export class AuthService {
 
   }
 
-  singUp(email?: string, password?: string) {
+  singUp(email: string, password: string) {
     this.apollo
       .mutate({
         mutation: gql`
         mutation{
-          UserRegistration(user:{
-             Email:"abc"
-             Password:"asd"
-             PhoneNumber:"sdg"
-             City:"Citydf"
-          }){
+          createUser(userInput:{
+            email:"${email}"
+            password:"${password}"
+          })
+          {
             email
           }
         }`,
@@ -54,7 +53,7 @@ export class AuthService {
   }
 
 
-  login(user: { email: string, password: string }): Observable<any> {
+  login(user: { email: string, password: string }): Observable<boolean> {
     return this.http.post<any>(`https://localhost:44399/login/SignIn`, user)
       .pipe(map((response: any) => {
         if (response) {

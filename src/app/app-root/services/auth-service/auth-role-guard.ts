@@ -36,7 +36,7 @@ export class RoleGuardService implements CanActivate {
         admin = roles[roles?.indexOf('admin')];
         customer = roles[roles?.indexOf('customer')];
 
-        //(Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
+        // (Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
         //           &&
 
         if ((admin === expectedRole)) {

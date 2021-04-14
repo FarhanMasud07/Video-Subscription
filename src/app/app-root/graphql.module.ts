@@ -156,32 +156,12 @@ export class GraphQLModule {
   constructor(
     apollo: Apollo,
     httpLink: HttpLink,
-    authService: AuthService
   ) {
     const uri = environment.graphQlEndPoint;
     const http = httpLink.create({uri: uri});
 
-    const errorLink: any = onError(({forward, graphQLErrors, networkError, operation}) => {
-      if (graphQLErrors) {
-        graphQLErrors.map(({message, locations, path}) => {
-            if (message) {
-              authService.refreshToken().subscribe(() => {
-                return forward(operation);
-              });
-              console.log('dhukse')
-            } else {
-              console.log('dhukenai')
-            }
-          }
-        );
-      }
-      if (networkError) {
-        console.log(networkError, 'networkError')
-      }
-    });
-
     apollo.create({
-      link: errorLink.concat(this.middleware().concat(http)),
+      link: this.middleware().concat(http),
       cache: new InMemoryCache()
     });
   }

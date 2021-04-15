@@ -31,16 +31,17 @@ export class AuthService {
 
   }
 
-  singUp(email: string, password: string) {
+  singUp(email?: string, password?: string) {
     this.apollo
       .mutate({
         mutation: gql`
-        mutation{
-          createUser(userInput:{
-            email:"${email}"
-            password:"${password}"
-          })
-          {
+       mutation{
+          UserRegistration(user:{
+             Email:"abc"
+                    Password:"asd"
+                    PhoneNumber:"sdg"
+                    City:"Citydf"
+          }){
             email
           }
         }`,
@@ -84,6 +85,11 @@ export class AuthService {
       'refreshToken': this.getRefreshToken()
     }).pipe(tap((tokens: any) => {
       this.storeJwtToken(tokens.jwt);
+    }, catchError => {
+      if (catchError.status === 401) {
+        this.removeTokens();
+        this.router.navigate(['/']);
+      }
     }));
   }
 

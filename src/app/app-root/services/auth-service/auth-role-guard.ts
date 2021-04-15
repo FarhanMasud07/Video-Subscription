@@ -28,39 +28,37 @@ export class RoleGuardService implements CanActivate {
       let admin: string;
       let customer: string;
 
-      // const admin = jwtDecodedToken?.roles[jwtDecodedToken?.roles?.indexOf('admin')];
-      // const customer: string = jwtDecodedToken?.roles[jwtDecodedToken?.roles?.indexOf('customer')];
 
       const roles = jwtDecodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
       if (roles && Array.isArray(roles)) {
         admin = roles[roles?.indexOf('admin')];
         customer = roles[roles?.indexOf('customer')];
 
-        // (Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
-        //           &&
 
-        if ((admin === expectedRole)) {
+        if ((Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
+          && (admin === expectedRole)) {
           return true;
         }
-        //(Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
-        //           &&
-        if ((customer === expectedRole)) {
+
+        if ((Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
+          && (customer === expectedRole)) {
           return true;
         }
-      //  (Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
-        //           &&
+
       } else {
-        if ( (roles === expectedRole)) {
+        if ((Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
+          && (roles === expectedRole)) {
           return true;
         }
-        //(Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
-        //           &&
-        if ((roles === expectedRole)) {
+
+        if ((Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
+          && (roles === expectedRole)) {
           return true;
         }
       }
+      this.router.navigate(['/']);
+      return false;
     }
-    this.authService.removeTokens();
     this.router.navigate(['/']);
     return false;
   }

@@ -154,14 +154,31 @@ import {map, switchMap} from "rxjs/operators";
 export class GraphQLModule {
 
   constructor(
+    authenticationService: AuthService,
     apollo: Apollo,
     httpLink: HttpLink,
   ) {
     const uri = environment.graphQlEndPoint;
     const http = httpLink.create({uri: uri});
-
+    const errorLink = onError(({forward, graphQLErrors, networkError, operation}) => {
+      if (graphQLErrors) {
+        graphQLErrors.map(({message, locations, path, extensions}) => {
+            const code: any = extensions;
+            if (code && code.code && code.code === 'AUTH_NOT_AUTHENTICATED') {
+              authenticationService.refreshToken().subscribe(() => {
+                return forward(operation).subscribe((response: any) => {
+                  return response;
+                });
+              });
+            }else{
+              // in future
+            }
+          }
+        );
+      }
+    });
     apollo.create({
-      link: this.middleware().concat(http),
+      link: errorLink.concat(this.middleware().concat(http)),
       cache: new InMemoryCache()
     });
   }

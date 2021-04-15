@@ -2,19 +2,21 @@
 
 
 .border-less-mat-button .mat-flat-button {
-  background-color: map-get($mat-light-blue, 100);
+  background: map-get($mat-blue, 300);
   border-radius: 40px;
   width: 50%;
-  color: map-get($mat-light-blue, 500);
+  color: #ffffff;
 }
-
+::ng-deep.mat-progress-bar-buffer {
+  background-color: map-get($mat-blue, 500);
+}
 ::ng-deep.mat-progress-bar-fill::after {
-  background-color: map-get($mat-light-blue, 50) !important;
+  background-color: map-get($mat-blue, 50) !important;
 }
 
 ::ng-deep.mat-snack-bar-container {
   color: #ffffff !important;
-  background: map-get($mat-light-blue, 200) !important;
+  background: map-get($mat-blue, 300) !important;
 }
 
 ::ng-deep.mat-simple-snackbar-action {
@@ -24,7 +26,7 @@
 
 main {
   min-height: calc(100vh);
-  background: linear-gradient(to right, map-get($mat-light-blue, 100) 50%, map-get($mat-grey, 100) 50%);
+  background: linear-gradient(to right, map-get($mat-blue, 200) 50%, map-get($mat-blue, 100) 50%);
 
   .login {
     background: #ffffff;
@@ -60,7 +62,7 @@ main {
 
   article {
     .paragraph-color {
-      color: map-get($mat-light-blue, 300);
+      color: map-get($mat-blue, 300);
     }
 
     .span-color {
@@ -73,7 +75,7 @@ main {
 
         ::ng-deep.mat-form-field-prefix .mat-icon, .mat-form-field-suffix .mat-icon {
           font-size: 16px;
-          color: map-get($mat-light-blue, 300);
+          color: map-get($mat-blue, 300);
         }
 
         ::ng-deep.mat-input-element {
@@ -82,11 +84,11 @@ main {
       }
 
       .dont-have-account-yet {
-        color: map-get($mat-gray, 500);
+        color: map-get($mat-gray, 600);
       }
 
       .sign-up {
-        color: map-get($mat-light-blue, 300);
+        color: map-get($mat-blue, 300);
       }
     }
   }

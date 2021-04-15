@@ -71,7 +71,8 @@ export class AppLoginComponent implements OnInit {
           });
         }
       }, (error) => {
-        this._snackBar.open('Server connection problem', 'End now', {
+        this.loading = false;
+        this._snackBar.open(error.error, 'End now', {
           duration: 5000,
           horizontalPosition: 'end',
         });

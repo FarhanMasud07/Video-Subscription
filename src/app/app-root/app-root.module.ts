@@ -40,11 +40,11 @@ import {MatIconModule} from "@angular/material/icon";
   ],
   providers: [AuthService, AuthGuardService, LoggedInAuthGuardService, RoleGuardService, JwtHelperService,
     {provide: JWT_OPTIONS, useValue: JWT_OPTIONS,},
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: InterceptorService,
-      multi: true
-    }
+    // {
+    //   provide: HTTP_INTERCEPTORS,
+    //   useClass: InterceptorService,
+    //   multi: true
+    // }
   ],
   bootstrap: [RootDefaultComponent]
 })

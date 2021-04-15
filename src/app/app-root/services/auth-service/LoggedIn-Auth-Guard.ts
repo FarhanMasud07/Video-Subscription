@@ -26,10 +26,6 @@ export class LoggedInAuthGuardService implements CanActivate {
       let admin: string;
       let customer: string;
 
-      // for node  js
-      // const admin = jwtDecodedToken.roles[jwtDecodedToken?.roles?.indexOf('admin')];
-      // const customer: string = jwtDecodedToken.roles[jwtDecodedToken?.roles?.indexOf('customer')];
-
 
       const roles = jwtDecodedToken['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
       admin = roles[roles?.indexOf('admin')];
@@ -46,8 +42,9 @@ export class LoggedInAuthGuardService implements CanActivate {
           this.router.navigate(['/dashboard']);
           return false;
         }
+        this.authService.removeTokens();
         return true;
-      }else{
+      } else {
         if ((Date.now() < Number(jwtDecodedRefreshToken.exp) * 1000)
           && (roles === 'admin')) {
           this.router.navigate(['/admin']);
@@ -58,6 +55,7 @@ export class LoggedInAuthGuardService implements CanActivate {
           this.router.navigate(['/dashboard']);
           return false;
         }
+        this.authService.removeTokens();
         return true;
       }
     }

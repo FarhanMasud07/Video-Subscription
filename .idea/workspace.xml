@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33fec5a6-9473-49ca-a19b-8083eb043d03" name="Default Changelist" comment="" />
+    <list default="true" id="33fec5a6-9473-49ca-a19b-8083eb043d03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-hillium-project/src/app/app-login/components/app-login/app-login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-hillium-project/src/app/app-login/components/app-login/app-login.component.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,34 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/angular.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="921">
-              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app-root/services/auth-service/auth-role-guard.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-381">
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/app-root/services/auth-service/auth-service.ts">
+        <entry file="file://$PROJECT_DIR$/angular-hillium-project/src/app/app-login/components/app-login/app-login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -91,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/main.ts" />
         <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/components/admin-panel-default/admin-panel-default.component.html" />
         <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/app-admin-panel.module.ts" />
         <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-config/constants/config.constant.ts" />
@@ -142,10 +121,11 @@
         <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/scss/color.scss" />
         <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/Theme/my-theme.scss" />
         <option value="$PROJECT_DIR$/angular.json" />
+        <option value="$PROJECT_DIR$/angular-hillium-project/src/app/app-login/components/app-login/app-login.component.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -168,37 +148,47 @@
             <path>
               <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-hillium-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-hillium-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-hillium-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-hillium-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app-root" type="462c0819:PsiDirectoryNode" />
+              <item name="app-login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-hillium-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app-root" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="app-login" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="angular-hillium-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app-root" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="app-login" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="app-login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,19 +315,20 @@
       <workItem from="1618862249477" duration="19000" />
       <workItem from="1618941084418" duration="705000" />
       <workItem from="1618941845685" duration="402000" />
-      <workItem from="1618942304559" duration="2127000" />
+      <workItem from="1618942304559" duration="2884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259749000" />
+    <option name="totallyTimeSpent" value="260506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.27362856" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.27362856" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
@@ -348,7 +339,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36402267" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36402267" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,7 +375,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/app-shared.module.ts" />
     <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/@angular/flex-layout/flex/typings/layout-align/layout-align.d.ts" />
     <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/components/mode-theme-switch/mode-theme-switch.component.html" />
     <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/components/mode-theme-switch/mode-theme-switch.component.scss" />
@@ -455,6 +445,13 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-hillium-project/src/app/app-login/components/app-login/app-login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>

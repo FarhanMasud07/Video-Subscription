@@ -55,7 +55,7 @@ export class AuthService {
 
 
   login(user: { email: string, password: string }): Observable<boolean> {
-    return this.http.post<any>(`https://localhost:44399/login/SignIn`, user)
+    return this.http.post<any>(`/login/SignIn`, user)
       .pipe(map((response: any) => {
         if (response) {
           this.doLoginUser(user.email, response);
@@ -66,7 +66,7 @@ export class AuthService {
   }
 
   logout() {
-    return this.http.post<any>(`http://localhost:3001/logout`, {
+    return this.http.post<any>(`/logout`, {
       'refreshToken': this.getRefreshToken()
     }).pipe(
       tap(() => this.doLogoutUser()),
@@ -81,7 +81,7 @@ export class AuthService {
   }
 
   refreshToken() {
-    return this.http.post<any>(`https://localhost:44399/login/RefreshToken`, {
+    return this.http.post<any>(`/login/RefreshToken`, {
       'refreshToken': this.getRefreshToken()
     }).pipe(tap((tokens: any) => {
       this.storeJwtToken(tokens.jwt);

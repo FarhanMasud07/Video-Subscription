@@ -2,7 +2,7 @@
 <button (click)="logOut()">Log out</button>
 
 
-<form action="http://localhost:3001/ssl-payment" method="POST" class="needs-validation">
+<form action="/ssl-payment" method="POST" class="needs-validation">
   <input type="hidden" value="{{token}}" name="_token"/>
   <input type="hidden" value="{{refreshToken}}" name="_refreshToken"/>
 

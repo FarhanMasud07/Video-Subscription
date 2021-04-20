@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33fec5a6-9473-49ca-a19b-8083eb043d03" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="921">
+              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app-root/services/auth-service/auth-role-guard.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-381">
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/app-root/services/auth-service/auth-service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-361">
+              <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>appmod</find>
+      <find>GraphQLModule</find>
+      <find>useFactory</find>
+      <find>Obse</find>
+      <find>Observable</find>
+      <find>mom</find>
+      <find>cook</find>
+      <find>loggedUser</find>
+      <find>JWT_TOKEN</find>
+      <find>refreshToken</find>
+      <find>apollo</find>
+      <find>addToken</find>
+      <find>alert</find>
+      <find>mat-dark-theme</find>
+      <find>flex</find>
+      <find>303030</find>
+      <find>$mat-light-blue</find>
+      <find>81d4fa</find>
+      <find>cursor-pointer</find>
+      <find>$mat-gray</find>
+      <find>isRefreshing</find>
+      <find>3</find>
+      <find>api</find>
+      <find>localhost</find>
+      <find>http://localhost:5000</find>
+      <find>mat-light-color</find>
+      <find>bud</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/main.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/components/admin-panel-default/admin-panel-default.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/app-admin-panel.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-config/constants/config.constant.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-login-default/app-login-default.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-dashboard/app-dashboard-routing.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/app-admin-panel-routing.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/app-login-routing.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-sign-up/app-sign-up.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-dashboard/app-dashboard.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/interceptor.service/interceptor.service.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/interceptor.service/models/token" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-sign-up/app-sign-up.component.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/components/admin-panel/admin-panel.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/services/graphql.query.service.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/auth-service/auth-guard-service.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-dashboard/components/app-dashboard-default/app-dashboard-default.component.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/app-login.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/components/mode-theme-switch/mode-theme-switch.component.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/app-shared.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/components/mode-theme-switch/mode-theme-switch.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/components/mode-theme-switch/mode-theme-switch.component.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/font.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/Color/color.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/component/root-default/root-default.component.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/component/root-default/root-default.component.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/component/root-default/root-default.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/Fonts/font.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/margin/margin.css" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/padding.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/index.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/components/admin-panel/admin-panel.component.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/interceptor/interceptor.service.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/app-root.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/graphql.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/auth-service/LoggedIn-Auth-Guard.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-login/app-login.component.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/styles.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-login/app-login.component.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-login/app-login.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-dashboard/components/app-dashboard-default/app-dashboard-default.component.html" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/dist/angular-graphql-frontend/main.js" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/auth-service/auth-role-guard.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/app-root-routing.module.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/auth-service/auth-service.ts" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/package.json" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/scss/color.scss" />
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/src/assets/Theme/my-theme.scss" />
+        <option value="$PROJECT_DIR$/angular.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app-root" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app-root" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Angular-GraphQl-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Angular-GraphQl-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app-root" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\Server GQL\MEAN-STACK-PROJECT\Angular-GraphQl-FrontEnd\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Server GQL\MEAN-STACK-PROJECT\Angular-GraphQl-FrontEnd\angular-graphql-frontend\src\assets\scss" />
+      <recent name="D:\Server GQL\MEAN-STACK-PROJECT\Angular-GraphQl-FrontEnd\angular-graphql-frontend\src\assets\fonts" />
+      <recent name="D:\Server GQL\MEAN-STACK-PROJECT\Angular-GraphQl-FrontEnd\angular-graphql-frontend\src\app\app-root\services\auth-service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33fec5a6-9473-49ca-a19b-8083eb043d03" name="Default Changelist" comment="" />
+      <created>1616248113844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616248113844</updated>
+      <workItem from="1616248114996" duration="9595000" />
+      <workItem from="1616258031157" duration="17613000" />
+      <workItem from="1616341884501" duration="9740000" />
+      <workItem from="1616405582696" duration="9774000" />
+      <workItem from="1616506974685" duration="1232000" />
+      <workItem from="1616568592508" duration="39000" />
+      <workItem from="1616621282007" duration="1393000" />
+      <workItem from="1616682510220" duration="35000" />
+      <workItem from="1616702937966" duration="637000" />
+      <workItem from="1616763029590" duration="25452000" />
+      <workItem from="1616844611257" duration="2537000" />
+      <workItem from="1616850184943" duration="6858000" />
+      <workItem from="1616859641414" duration="5103000" />
+      <workItem from="1616906207113" duration="17000" />
+      <workItem from="1616909178338" duration="2688000" />
+      <workItem from="1616939404630" duration="3269000" />
+      <workItem from="1616944708434" duration="729000" />
+      <workItem from="1616945465075" duration="1706000" />
+      <workItem from="1616961606500" duration="5159000" />
+      <workItem from="1617058411938" duration="4254000" />
+      <workItem from="1617099603416" duration="7082000" />
+      <workItem from="1617108420815" duration="150000" />
+      <workItem from="1617108624177" duration="1271000" />
+      <workItem from="1617109914125" duration="9343000" />
+      <workItem from="1617123610560" duration="4867000" />
+      <workItem from="1617132374749" duration="1101000" />
+      <workItem from="1617133777905" duration="1362000" />
+      <workItem from="1617298145681" duration="12603000" />
+      <workItem from="1617357247849" duration="11000" />
+      <workItem from="1617370405856" duration="2403000" />
+      <workItem from="1617395795136" duration="15000" />
+      <workItem from="1618122502940" duration="28668000" />
+      <workItem from="1618162196625" duration="13994000" />
+      <workItem from="1618208679263" duration="24000" />
+      <workItem from="1618325540337" duration="27047000" />
+      <workItem from="1618389061322" duration="29131000" />
+      <workItem from="1618460272492" duration="515000" />
+      <workItem from="1618517472475" duration="1023000" />
+      <workItem from="1618601612719" duration="17000" />
+      <workItem from="1618676413373" duration="37000" />
+      <workItem from="1618695595360" duration="196000" />
+      <workItem from="1618834571006" duration="3226000" />
+      <workItem from="1618839859971" duration="775000" />
+      <workItem from="1618855464916" duration="3805000" />
+      <workItem from="1618862249477" duration="19000" />
+      <workItem from="1618941084418" duration="705000" />
+      <workItem from="1618941845685" duration="402000" />
+      <workItem from="1618942304559" duration="2127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="259749000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.27362856" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36402267" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2954395" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17988668" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/angular-graphql-frontend/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/app-shared.module.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/@angular/flex-layout/flex/typings/layout-align/layout-align.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/components/mode-theme-switch/mode-theme-switch.component.html" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-shared/components/mode-theme-switch/mode-theme-switch.component.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/@angular/material/sidenav/drawer.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/component/root-default/root-default.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/component/root-default/root-default.component.html" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/app-login.module.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/@angular/material/form-field/form-field.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/component/root-default/root-default.component.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/assets/scss/font.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/assets/scss/margin.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/assets/scss/padding.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/rxjs/src/internal/operators/mapTo.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/rxjs/src/internal/operators/tap.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/services/graphql.query.service.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-sign-up/app-sign-up.component.html" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/components/admin-panel/admin-panel.component.html" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-admin-panel/components/admin-panel/admin-panel.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/apollo-link/lib/types.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/rxjs/src/internal/Observable.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/graphql/language/source.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/graphql/language/ast.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/graphql/jsutils/Maybe.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/apollo-link-error/lib/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/graphql/error/GraphQLError.d.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-sign-up/app-sign-up.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-login/app-login.component.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/README.md" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-login/app-login.component.html" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/angular.json" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-login/components/app-login/app-login.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/interceptor/interceptor.service.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/app-root.module.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/graphql.module.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/app-root-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/node_modules/@angular/material/_theming.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/environments/environment.prod.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/package.json" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/styles.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/auth-service/auth-role-guard.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/auth-service/LoggedIn-Auth-Guard.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/app/app-root/services/auth-service/auth-service.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/environments/environment.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/assets/Theme/my-theme.scss" />
+    <entry file="file://$PROJECT_DIR$/angular-graphql-frontend/src/assets/scss/color.scss" />
+    <entry file="file://$PROJECT_DIR$/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app-root/services/auth-service/auth-role-guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app-root/services/auth-service/auth-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

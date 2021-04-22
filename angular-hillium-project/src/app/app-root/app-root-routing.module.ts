@@ -1,3 +1,4 @@
+import { GenericNotFoundComponent } from './../app-shared/components/generic-not-found/generic-not-found.component';
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {AuthGuardService} from "./services/auth-service/auth-guard-service";
@@ -31,7 +32,7 @@ const routes: Routes = [
     },
   },
 
-  {path: '**', redirectTo: 'https://demostudy.azurewebsites.net', pathMatch: 'full'}
+  {path: '**', component: GenericNotFoundComponent}
 ];
 
 @NgModule({

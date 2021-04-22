@@ -11,6 +11,7 @@ import {HttpClient, HttpErrorResponse} from "@angular/common/http";
 import {map, tap, mapTo, catchError} from "rxjs/operators";
 import {CookieService} from "ngx-cookie-service";
 import {promise} from "selenium-webdriver";
+import { environment } from "../../../../environments/environment";
 
 
 @Injectable()
@@ -55,7 +56,7 @@ export class AuthService {
 
 
   login(user: { email: string, password: string }): Observable<boolean> {
-    return this.http.post<any>(`/login/SignIn`, user)
+    return this.http.post<any>(`${environment.graphQlEndPoint}/login/SignIn`, user)
       .pipe(map((response: any) => {
         if (response) {
           this.doLoginUser(user.email, response);
@@ -66,7 +67,7 @@ export class AuthService {
   }
 
   logout() {
-    return this.http.post<any>(`/logout`, {
+    return this.http.post<any>(`${environment.graphQlEndPoint}/logout`, {
       'refreshToken': this.getRefreshToken()
     }).pipe(
       tap(() => this.doLogoutUser()),
@@ -81,7 +82,7 @@ export class AuthService {
   }
 
   refreshToken() {
-    return this.http.post<any>(`/login/RefreshToken`, {
+    return this.http.post<any>(`${environment.graphQlEndPoint}/login/RefreshToken`, {
       'refreshToken': this.getRefreshToken()
     }).pipe(tap((tokens: any) => {
       this.storeJwtToken(tokens.jwt);

@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  graphQlEndPoint: '/graphql/'
+  graphQlEndPoint: 'https://hillium-nitro.azurewebsites.net'
 };
